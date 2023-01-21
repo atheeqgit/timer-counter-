@@ -1,0 +1,91 @@
+/*  ?=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* ?================ MAIN CODINGS ===============*/
+
+.body-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./bg-2.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-weight: 500;
+
+  letter-spacing: 0.5rem;
+}
+
+.time-container {
+  display: flex;
+  gap: 8rem;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.big-letter {
+  font-size: 7rem;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+}
+
+.small-letter {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.input-box {
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.input-box input {
+  height: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+.button {
+  width: fit-content;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 500;
+
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  padding: 0 2rem;
+}
